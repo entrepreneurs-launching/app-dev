@@ -15,6 +15,7 @@ import {
   StyleSheet,
   Text,
   useColorScheme,
+  Button,
   View,
 } from 'react-native';
 
@@ -25,6 +26,9 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+
+import {withAuthenticator} from 'aws-amplify-react-native';
+import {Auth} from 'aws-amplify';
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -59,6 +63,14 @@ const App: () => Node = () => {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
+  const signOut = async () => {
+    try {
+      await Auth.signOut();
+    } catch (error) {
+      console.log('error signing out: ', error);
+    }
+  };
+
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
@@ -70,6 +82,9 @@ const App: () => Node = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
+
+          <Button title="Signout" onPress={signOut} />
+
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.
@@ -109,4 +124,12 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+/*
+ * For Authenticator customizations
+ * See https://ui.docs.amplify.aws/react/components/authenticator
+ */
+export default withAuthenticator(App, {
+  signUpConfig: {
+    hiddenDefaults: ['phone_number'],
+  },
+});
