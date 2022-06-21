@@ -1,5 +1,3 @@
-#!/usr/local/bin/python3
-
 query1="""
 query MyQuery ($limit: Int!) {
   listTrips(limit: $limit) {
