@@ -1,0 +1,929 @@
+https://serpapi.com/search.json?engine=google&q=badami+karnataka+beautiful&google_domain=google.co.in&gl=in&hl=en&tbm=isch&api_key=b337b4f036aaede4f708046b6338cf100481d6247ffe7d9b3ad472d2e8667d49
+
+{
+  "search_metadata": {
+    "id": "62abccff2bc7d866821b3673",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/2d674649578fa443/62abccff2bc7d866821b3673.json",
+    "created_at": "2022-06-17 00:38:23 UTC",
+    "processed_at": "2022-06-17 00:38:23 UTC",
+    "google_url": "https://www.google.co.in/search?q=badami+karnataka+beautiful&oq=badami+karnataka+beautiful&hl=en&gl=in&tbm=isch&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/2d674649578fa443/62abccff2bc7d866821b3673.html",
+    "total_time_taken": 1.47
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "badami karnataka beautiful",
+    "google_domain": "google.co.in",
+    "hl": "en",
+    "gl": "in",
+    "device": "desktop",
+    "tbm": "isch"
+  },
+  "search_information": {
+    "image_results_state": "Results for exact spelling",
+    "query_displayed": "badami karnataka beautiful"
+  },
+  "images_results": [
+    {
+      "position": 1,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5eaa36e5b95c3e2e97ac06e5299625e197a087f98510e08ee5.jpeg",
+      "source": "en.wikipedia.org",
+      "title": "Badami - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Badami",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cf/BadamiCaves87.JPG",
+      "is_product": false
+    },
+    {
+      "position": 2,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5ece4d60b660a106057471ea35053c6313faad3740d796eccf.jpeg",
+      "source": "youtube.com",
+      "title": "Badami Cave Temples, Karnataka, India [Amazing Places 4K] - YouTube",
+      "link": "https://www.youtube.com/watch?v=oT4Lf807_P0",
+      "original": "https://i.ytimg.com/vi/oT4Lf807_P0/maxresdefault.jpg",
+      "is_product": true
+    },
+    {
+      "position": 3,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5e6997f903dda1ff7e1a801856d780957d5131c1debffb61a3.jpeg",
+      "source": "karnatakatourism.org",
+      "title": "Badami cave temple | Bhutanatha Temple | Agastya theertha lake",
+      "link": "https://www.karnatakatourism.org/tour-item/badami/",
+      "original": "https://15.206.228.245/wp-content/uploads/2020/06/badami-karnataka.jpg",
+      "is_product": false
+    },
+    {
+      "position": 4,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5eec825c51fe9e2176aabbaf3f309edac401c74b100cc5f1c6.jpeg",
+      "source": "tripadvisor.in",
+      "title": "10 BEST Places to Visit in Badami - UPDATED 2022 (with Photos & Reviews) -  Tripadvisor",
+      "link": "https://www.tripadvisor.in/Attractions-g1143919-Activities-Badami_Bagalkot_District_Karnataka.html",
+      "original": "https://media-cdn.tripadvisor.com/media/photo-s/03/4f/35/d6/bhuthanatha-temple.jpg",
+      "is_product": false
+    },
+    {
+      "position": 5,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5e44a4e62563b8048c7a821469d2f9c09dbba056a3b42ada16.jpeg",
+      "source": "hikerwolf.com",
+      "title": "Everything you need to know about Badami | Hikerwolf",
+      "link": "https://hikerwolf.com/everything-you-need-to-know-about-badami/",
+      "original": "https://hikerwolf.com/wp-content/uploads/2020/09/badami_cave_temple1.jpg",
+      "is_product": false
+    },
+    {
+      "position": 6,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5e5ec85f67a3f777a224c1489fdb601ff398c9aab66e8aa59a.jpeg",
+      "source": "siaphotography.in",
+      "title": "Badami Cave Temples | SIA Photography | Photography Tours in India",
+      "link": "https://siaphotography.in/blog/badami-caves-and-temples-a-visit-to-the-chalukya-capital/",
+      "original": "https://farm66.staticflickr.com/65535/50405162367_990da13a88_b.png",
+      "is_product": false
+    },
+    {
+      "position": 7,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5e2ead041c88664421b2dfe67d6b480927165a7dddb6f290b9.jpeg",
+      "source": "mustvisitplace.com",
+      "title": "Badami Cave Temples - Mesmerizing and Unforgettable Heritage Tourist  Destination",
+      "link": "https://www.mustvisitplace.com/badami-cave-temples-mesmerizing-and-unforgettable-tourist-destination/",
+      "original": "https://www.mustvisitplace.com/wp-content/uploads/2019/04/badami-cave-temples-1.jpg",
+      "is_product": false
+    },
+    {
+      "position": 8,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5e5c3baca85b57be1ae23a688fb77a5ae38a5b5831b3838068.jpeg",
+      "source": "tourmyindia.com",
+      "title": "9 Reasons to Visit Badami in Northern Karnataka",
+      "link": "https://www.tourmyindia.com/blog/reasons-to-visit-badami-in-northern-karnataka/",
+      "original": "https://www.tourmyindia.com/blog//wp-content/uploads/2015/12/Rock-Cut-Cave-Temples-Badami.jpg",
+      "is_product": false
+    },
+    {
+      "position": 9,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5e8f6168ccc9c087eae4c14d5c004f3e8d98c9b062890b46bf.jpeg",
+      "source": "traveltriangle.com",
+      "title": "14 Incredible Places To Visit In Badami To Visit In 2022",
+      "link": "https://traveltriangle.com/blog/places-to-visit-in-badami/",
+      "original": "https://img.traveltriangle.com/blog/wp-content/uploads/2019/11/Badami-Fort22_nov.jpg",
+      "is_product": false
+    },
+    {
+      "position": 10,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5e12ee9d3d9cc9a736ca178484e450f3c709bfade52ac45701.jpeg",
+      "source": "whatshot.in",
+      "title": "Visit Badami Caves Temples In Karnataka For Breathtaking Views And Beautiful  Temples | WhatsHot Bangalore",
+      "link": "https://www.whatshot.in/bangalore/badami-caves-temples-karnataka-c-18245",
+      "original": "https://im.whatshot.in/img/2019/Oct/befunky-collag-1571213388.jpg",
+      "is_product": false
+    },
+    {
+      "position": 11,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5ece4d60b660a10605610e9ea29fedc1916e7bc9a977c4ffdc.jpeg",
+      "source": "en.wikipedia.org",
+      "title": "Badami cave temples - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Badami_cave_temples",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Vishnu_image_inside_cave_number_3_in_Badami.jpg/1200px-Vishnu_image_inside_cave_number_3_in_Badami.jpg",
+      "is_product": false
+    },
+    {
+      "position": 12,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5ece4d60b660a106052514780249d1a31f63d4cf420c574717.jpeg",
+      "source": "solobackpacker.com",
+      "title": "Badami Cave Temples- Visitor's Guide",
+      "link": "https://www.solobackpacker.com/badami-trip-in-karnataka/",
+      "original": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_700,h_462/https://www.solobackpacker.com/wp-content/uploads/2020/07/Bhootnath_Temple_Complex.jpg",
+      "is_product": false
+    },
+    {
+      "position": 13,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5ece4d60b660a10605798b37723ea2353b7c0de49ce3d5218d.jpeg",
+      "source": "pinterest.com",
+      "title": "Pin on PIN EXCHANGE",
+      "link": "https://www.pinterest.com/pin/291959988318113179/",
+      "original": "https://i.pinimg.com/originals/5a/b5/1a/5ab51a9c8762dc4e772228008132a24f.jpg",
+      "is_product": false
+    },
+    {
+      "position": 14,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5ece4d60b660a10605a2bf1595b1577423cb650f7cb59df0c9.jpeg",
+      "source": "tripadvisor.in",
+      "title": "10 BEST Places to Visit in Badami - UPDATED 2022 (with Photos & Reviews) -  Tripadvisor",
+      "link": "https://www.tripadvisor.in/Attractions-g1143919-Activities-Badami_Bagalkot_District_Karnataka.html",
+      "original": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/0e/6b/bc/badami-cave-temples.jpg?w=300&h=300&s=1",
+      "is_product": false
+    },
+    {
+      "position": 15,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5ece4d60b660a106051ab57477d1fcd2764ffcf19649dabbd7.jpeg",
+      "source": "karnataka.com",
+      "title": "Badami | Badami Caves | Badami Sightseeing |Badami Temples",
+      "link": "https://www.karnataka.com/badami/about-badami/",
+      "original": "https://www.karnataka.com/wp-content/uploads/2007/10/800px-Southern_Fort__the_old_gun_Badami_1.jpg",
+      "is_product": false
+    },
+    {
+      "position": 16,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5ece4d60b660a1060523e07e12d8edfd30fad39001db22bede.jpeg",
+      "source": "ttravelog.com",
+      "title": "Badami Cave Temples, Karnataka, India - Most Amazing Ancient Rock Cut Cave  Temples",
+      "link": "https://ttravelog.com/articles/badami-cave-temples-karnataka-india-most-amazing-ancient-rock-cut-cave-temples_Ww.html",
+      "original": "https://media.ttravelog.com/article/images/Badami-cave-temples-in-karnataka-1.jpg",
+      "is_product": false
+    },
+    {
+      "position": 17,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5ece4d60b660a10605193d064210017b9c7f01dfa7ec12e7b3.jpeg",
+      "source": "whatshot.in",
+      "title": "Visit Badami Caves Temples In Karnataka For Breathtaking Views And Beautiful  Temples | WhatsHot Bangalore",
+      "link": "https://www.whatshot.in/bangalore/badami-caves-temples-karnataka-c-18245",
+      "original": "https://im.whatshot.in/img/2019/Oct/badamiveri-1571205551.jpg",
+      "is_product": false
+    },
+    {
+      "position": 18,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5ece4d60b660a106056fa0d85193fcac6f02266243c3c54fcc.jpeg",
+      "source": "transindiatravels.com",
+      "title": "Top 5 Places To Visit In Badami - Trans India Travels",
+      "link": "https://www.transindiatravels.com/karnataka/badami/tourist-places-to-visit-in-badami/",
+      "original": "https://www.transindiatravels.com/wp-content/uploads/badami-cave-temples.jpg",
+      "is_product": false
+    },
+    {
+      "position": 19,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5ece4d60b660a1060591da1dd57b9aedddbb312cdb73c45643.jpeg",
+      "source": "tripadvisor.in",
+      "title": "Most beautiful before Sunset - Reviews, Photos - Badami Cave Temples -  Tripadvisor",
+      "link": "https://www.tripadvisor.in/ShowUserReviews-g1143919-d1022211-r237411105-Badami_Cave_Temples-Badami_Bagalkot_District_Karnataka.html",
+      "original": "https://media-cdn.tripadvisor.com/media/photo-s/09/33/2e/07/badami-cave-temples.jpg",
+      "is_product": false
+    },
+    {
+      "position": 20,
+      "thumbnail": "https://serpapi.com/searches/62abccff2bc7d866821b3673/images/bcd7aa1eb673fb5ece4d60b660a10605614b1f46ed88d3bb3b1eaf36a17c71a4.jpeg",
+      "source": "holidify.com",
+      "title": "14 Places To Visit In Badami, (2022) Top Tourist Places & Things To Do",
+      "link": "https://www.holidify.com/places/badami/sightseeing-and-things-to-do.html",
+      "original": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_690434593_20200304150447.png",
+      "is_product": false
+    },
+    {
+      "position": 21,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlp8e3JoyF4uruKuNkO0ZKM5uFLPXylcKL4g&usqp=CAU",
+      "source": "en.wikivoyage.org",
+      "title": "Badami – Travel guide at Wikivoyage",
+      "link": "https://en.wikivoyage.org/wiki/Badami",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Badami_102.JPG/350px-Badami_102.JPG",
+      "is_product": false
+    },
+    {
+      "position": 22,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQA7PD2sG2bgJMdOtrtuxevdBna7c93AC2sA&usqp=CAU",
+      "source": "templepurohit.com",
+      "title": "Temples in Karnataka - Info, History, Timings, Photos, Map and Videos",
+      "link": "https://www.templepurohit.com/hindu-temples/karnataka/",
+      "original": "https://www.templepurohit.com/wp-content/uploads/2016/05/Badami-Cave-Temple.jpg",
+      "is_product": false
+    },
+    {
+      "position": 23,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmIurpFW9y_wqLl9KREYzwGUXWRlzbVKndlg&usqp=CAU",
+      "source": "backpacksters.com",
+      "title": "Exploring The Badami Cave Temples - The Backpacksters",
+      "link": "https://www.backpacksters.com/india/badami-cave-temples-karnataka/",
+      "original": "https://www.backpacksters.com/wp-content/uploads/2021/03/India-Karnataka-Badami-Cave-Temple-35.jpg",
+      "is_product": false
+    },
+    {
+      "position": 24,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUq2yOloV1DYF5CoXd86pJUH1J4157Tn2DhQ&usqp=CAU",
+      "source": "shutterstock.com",
+      "title": "Beautiful Rock Temples Badami Karnataka Stock Photo 1448554805 |  Shutterstock",
+      "link": "https://www.shutterstock.com/image-photo/beautiful-rock-temples-badami-karnataka-1448554805",
+      "original": "https://image.shutterstock.com/image-photo/beautiful-rock-temples-badami-karnataka-260nw-1448554805.jpg",
+      "is_product": true
+    },
+    {
+      "position": 25,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF5wOC2eL2z8Syka0C0umuzC3g9mrpGvXUSQ&usqp=CAU",
+      "source": "vargiskhan.com",
+      "title": "Badami Cave Temples - Best Places to Visit in Badami - Vargis Khan",
+      "link": "https://vargiskhan.com/log/badami-cave-temples/",
+      "original": "https://vargiskhan.com/log/wp-content/uploads/2021/11/badami-cave-temples-1.jpg",
+      "is_product": false
+    },
+    {
+      "position": 26,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR72GL1cGWMogVONYh6qvjxEjTtbwSUuICMtw&usqp=CAU",
+      "source": "flickr.com",
+      "title": "Sculpture, Badami, Karnataka | Badami (Kannada: ಬದಾಮಿ), form… | Flickr",
+      "link": "https://www.flickr.com/photos/mukulb/5634092537",
+      "original": "https://live.staticflickr.com/5308/5634092537_f72098d26c_b.jpg",
+      "is_product": true
+    },
+    {
+      "position": 27,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhZrd_uBYsYwTLLbIhrlcghXfv7pJ6G4AYTg&usqp=CAU",
+      "source": "youtube.com",
+      "title": "BADAMI Temple Caves in KARNATAKA + Indian Sleeper Bus | India Travel vlog -  YouTube",
+      "link": "https://www.youtube.com/watch?v=MEaudw4BIIc",
+      "original": "https://i.ytimg.com/vi/MEaudw4BIIc/maxresdefault.jpg",
+      "is_product": true
+    },
+    {
+      "position": 28,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBNPB9DPOvpfCCAbfalpmEjDWbzM2ZzRn_Sg&usqp=CAU",
+      "source": "istockphoto.com",
+      "title": "527 Badami Caves Stock Photos, Pictures & Royalty-Free Images - iStock",
+      "link": "https://www.istockphoto.com/photos/badami-caves",
+      "original": "https://media.istockphoto.com/photos/mountain-fort-and-cave-picture-id482513223?k=20&m=482513223&s=612x612&w=0&h=Rt9ylBgvQYdtqYNtOp5-oud_NNJrzmxvSwWWhbDvI6U=",
+      "is_product": true
+    },
+    {
+      "position": 29,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU94jLWNQJrJA2hAPHOgjCmpMRC1QSBSRWJQ&usqp=CAU",
+      "source": "alamy.com",
+      "title": "Badami City Karnataka High Resolution Stock Photography and Images - Alamy",
+      "link": "https://www.alamy.com/stock-photo/badami-city-karnataka.html",
+      "original": "https://c8.alamy.com/comp/2CFYT9K/landscape-view-of-green-agastya-lake-of-badami-with-beautiful-skies-and-mountains-in-the-background-2CFYT9K.jpg",
+      "is_product": true
+    },
+    {
+      "position": 30,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiB035uTkXEhT3bZTTz6F3q8l30DmgYALanw&usqp=CAU",
+      "source": "blessingsonthenet.com",
+      "title": "General Information Of Badami",
+      "link": "https://blessingsonthenet.com/travel-india/destination/article/id/113/tour/id/126/general-information-of-badami",
+      "original": "https://blessingsonthenet.com/img/uploads/city/aim_bn_1311501909.jpg",
+      "is_product": false
+    },
+    {
+      "position": 31,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSayH3Mp5TSjxevnWo-I5_nhjwjewLsXC8WEA&usqp=CAU",
+      "source": "indianpanorama.in",
+      "title": "Badami Cave Temple - Karnataka - Indian Panorama",
+      "link": "https://www.indianpanorama.in/temples/badami-cave-temple-badami.php",
+      "original": "https://www.indianpanorama.in/images/temples/badami-cave-temple.jpg",
+      "is_product": false
+    },
+    {
+      "position": 32,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2eMF5tE2vJqi1EEDe3K37YnEYgAhkWRnIsg&usqp=CAU",
+      "source": "whatshot.in",
+      "title": "Visit Badami Caves Temples In Karnataka For Breathtaking Views And Beautiful  Temples | WhatsHot Bangalore",
+      "link": "https://www.whatshot.in/bangalore/badami-caves-temples-karnataka-c-18245",
+      "original": "https://im.whatshot.in/img/2019/Oct/badamiin1-1571205829.jpg",
+      "is_product": false
+    },
+    {
+      "position": 33,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST-DgTqHtBMM3MhqVYv4yx4mr_71Lsc3Ytgw&usqp=CAU",
+      "source": "shutterstock.com",
+      "title": "Beautiful Rock Temples Badami Karnataka Stock Photo 1448554787 |  Shutterstock",
+      "link": "https://www.shutterstock.com/image-photo/beautiful-rock-temples-badami-karnataka-1448554787",
+      "original": "https://image.shutterstock.com/z/stock-photo-the-beautiful-rock-temples-of-badami-in-karnataka-1448554787.jpg",
+      "is_product": false
+    },
+    {
+      "position": 34,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8i1-sbWiFU6aUv5SmPDJJB-wsu2z8q2WTSA&usqp=CAU",
+      "source": "pravase.co.in",
+      "title": "Badami Cave Temples, Hsitory, Architecture, Chalukya Rule, Karnataka  |Pravase",
+      "link": "https://pravase.co.in/thingstododetail/521/india/karnataka/badami/cave-temple-badami-timing-history-architecture-tourist-guide",
+      "original": "https://pravase.co.in/admin_pravase/uploads/place/Badami-Cave-Temples-Karnataka_1643540006.JPG",
+      "is_product": false
+    },
+    {
+      "position": 35,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvc1rMk-eLRyyMbWSJ0OiC94y_n7Q7PGNqfA&usqp=CAU",
+      "source": "tripadvisor.in",
+      "title": "The enhancer of the beauty of Badami - Reviews, Photos - Agastya Lake -  Tripadvisor",
+      "link": "https://www.tripadvisor.in/ShowUserReviews-g1143919-d4138614-r428286001-Agastya_Lake-Badami_Bagalkot_District_Karnataka.html",
+      "original": "https://media-cdn.tripadvisor.com/media/photo-s/15/24/19/f3/agastya-lake.jpg",
+      "is_product": false
+    },
+    {
+      "position": 36,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQStUNYwUr8sEhlb-lgzS-9zaArrsYYsg2MNQ&usqp=CAU",
+      "source": "jogharshwardhan.blogspot.com",
+      "title": "Visit to Badami, Karnataka, Part I | Sketches from life",
+      "link": "https://jogharshwardhan.blogspot.com/2015/08/visit-to-badami-karnataka-part-i.html?view=flipcard",
+      "original": "http://4.bp.blogspot.com/-VvP_anjFr8Q/Uhb3DrIIIqI/AAAAAAAAB3o/1458zn9dWlk/s1600/345.JPG",
+      "is_product": false
+    },
+    {
+      "position": 37,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr0_1_D2CDbb3pFQeyU_6AddzxAq6rhMiSYg&usqp=CAU",
+      "source": "istockphoto.com",
+      "title": "1,333 Badami Stock Photos, Pictures & Royalty-Free Images - iStock",
+      "link": "https://www.istockphoto.com/photos/badami",
+      "original": "https://media.istockphoto.com/photos/entrance-of-cave-no1-badami-caves-karnataka-india-picture-id1181988025?k=20&m=1181988025&s=612x612&w=0&h=OPFWlIp7kKcZ_cRXcsTjEIQUlS6QwtxhsxOfFr3qr58=",
+      "is_product": true
+    },
+    {
+      "position": 38,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVREgwpxiFtw2beQOghq8r11EWTT9fOgeSqw&usqp=CAU",
+      "source": "in.pinterest.com",
+      "title": "Stunning Badami Cave Temples of India - Stories by Soumya | Beautiful  travel destinations, Best places to travel, India travel",
+      "link": "https://in.pinterest.com/pin/110830840820228012/",
+      "original": "https://i.pinimg.com/736x/fa/cf/4a/facf4a83483c3e00c2cf1ca79f8e193f.jpg",
+      "is_product": false
+    },
+    {
+      "position": 39,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgrLMtiKfpRgyTCZE3Z-hglFMSR0tTWCh8Zw&usqp=CAU",
+      "source": "thetoptours.com",
+      "title": "Badami Pictures | Gallery & Slide Show | Badami Fort, Karnataka |  TheTopTours",
+      "link": "https://www.thetoptours.com/gallery/images/badami-pictures-karnataka/?pid=157",
+      "original": "https://www.thetoptours.com/wp-content/gallery/badami-pictures/beautiful-badami-caves-temples-karnataka.jpg",
+      "is_product": false
+    },
+    {
+      "position": 40,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ44kLTL4MCkXvzZ-AfPxE6EgAY1BNMl5nTVA&usqp=CAU",
+      "source": "shutterstock.com",
+      "title": "Beautiful Jain Temples Pattadakal Badami Karnataka Stock Photo 1117394969 |  Shutterstock",
+      "link": "https://www.shutterstock.com/image-photo/beautiful-jain-temples-pattadakal-badami-karnataka-1117394969",
+      "original": "https://image.shutterstock.com/z/stock-photo-beautiful-jain-temples-at-pattadakal-badami-karnataka-these-temples-are-build-by-chalukya-s-1117394969.jpg",
+      "is_product": false
+    },
+    {
+      "position": 41,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUGhcZ0u7TM_L3DyLeYCs3cpvnn4bcq8526w&usqp=CAU",
+      "source": "istockphoto.com",
+      "title": "1,333 Badami Stock Photos, Pictures & Royalty-Free Images - iStock",
+      "link": "https://www.istockphoto.com/photos/badami",
+      "original": "https://media.istockphoto.com/photos/entrance-archway-for-shivalaya-in-badami-karnataka-india-passage-way-picture-id1143548831?k=20&m=1143548831&s=612x612&w=0&h=dLBHtSVJFj9YYB2srQBuHZEWGul6h-LxXNu8OUM5ipA=",
+      "is_product": true
+    },
+    {
+      "position": 42,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnH5kdcCa44JuVzBDEywETDgclKlFY155-5g&usqp=CAU",
+      "source": "dreamstime.com",
+      "title": "Beautiful Sunrise at Badami Temple Stock Photo - Image of patterns, stone:  225381318",
+      "link": "https://www.dreamstime.com/beautiful-sunrise-badami-temple-karnataka-india-image225381318",
+      "original": "https://thumbs.dreamstime.com/b/beautiful-sunrise-badami-temple-karnataka-india-225381318.jpg",
+      "is_product": true
+    },
+    {
+      "position": 43,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuTi8ofKkzX7e6dc95AdSFb38DpjZZWbTV9g&usqp=CAU",
+      "source": "deccanherald.com",
+      "title": "Nuts over Badami,Aihole & Pattadakal | Deccan Herald",
+      "link": "https://www.deccanherald.com/archives/sunday-herald-travel/nuts-over-badamiaihole-pattadakal-769373.html",
+      "original": "https://www.deccanherald.com/sites/dh/files/article_images/2019/10/22/file77i07puo1a91hedelihu-1571686201.jpg",
+      "is_product": false
+    },
+    {
+      "position": 44,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStM82sMSdZM8_NVZNF4fn9FBAuUyK8AYxlwg&usqp=CAU",
+      "source": "traveltriangle.com",
+      "title": "14 Incredible Places To Visit In Badami To Visit In 2022",
+      "link": "https://traveltriangle.com/blog/places-to-visit-in-badami/",
+      "original": "https://assets.traveltriangle.com/blog/wp-content/uploads/2019/11/Badami-Cave-Temples22_nov.jpg",
+      "is_product": false
+    },
+    {
+      "position": 45,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQJpHNHQoA-4VYAqf-P6A_jB5wf1Mi-PFexA&usqp=CAU",
+      "source": "pinterest.com",
+      "title": "Badami Cave Temples, India | Travel india beautiful places, India travel  places, Badami cave temples",
+      "link": "https://www.pinterest.com/pin/badami-cave-temples-india--94083079685781527/",
+      "original": "https://i.pinimg.com/originals/81/d3/73/81d37398954472f601e08336a0e04022.jpg",
+      "is_product": false
+    },
+    {
+      "position": 46,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3fo6TgbuZ8Gp-nw1f78s8ZdAW_ATScLE7jg&usqp=CAU",
+      "source": "tripoto.com",
+      "title": "Badami - Hidden gem of South India - Tripoto",
+      "link": "https://www.tripoto.com/badami/trips/badami-hidden-gem-of-south-india-5f147a81d5d41",
+      "original": "https://static2.tripoto.com/media/filter/tst/img/1821257/TripDocument/1595162787_20191101002022_img_0350_01.jpeg",
+      "is_product": false
+    },
+    {
+      "position": 47,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWRkchJ8x1qsafcArHqMMwqy3SY_fcg0wqow&usqp=CAU",
+      "source": "tourmyindia.com",
+      "title": "9 Reasons to Visit Badami in Northern Karnataka",
+      "link": "https://www.tourmyindia.com/blog/reasons-to-visit-badami-in-northern-karnataka/",
+      "original": "https://www.tourmyindia.com/blog//wp-content/uploads/2015/12/badami-photography-5.jpg",
+      "is_product": false
+    },
+    {
+      "position": 48,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT78cJVzpTBadeI15Xr36qcnTW1cPLiWhElWg&usqp=CAU",
+      "source": "flickr.com",
+      "title": "Badami Cave Temples (BW), Karnataka | Badami (Kannada: ಬದಾಮಿ… | Flickr",
+      "link": "https://www.flickr.com/photos/mukulb/5600152038",
+      "original": "https://live.staticflickr.com/5301/5600152038_697d8998dd_b.jpg",
+      "is_product": true
+    },
+    {
+      "position": 49,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmvRBQYPvnuDKR5pLMykrcxvGNWsmbC5N_Rw&usqp=CAU",
+      "source": "destimap.com",
+      "title": "The Best Attractions In Badami | DestiMap | Destinations On Map",
+      "link": "https://www.destimap.com/index.php?act=place&p=Badami%2C-India",
+      "original": "https://i.ytimg.com/vi/oT4Lf807_P0/0.jpg",
+      "is_product": false
+    },
+    {
+      "position": 50,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq0Y8_URVtY44-w83QfVzzN36hrlt_sAHfPg&usqp=CAU",
+      "source": "canstockphoto.com",
+      "title": "Ancient yellamma temple at badami, karnataka, india with beautiful blue sky  background. | CanStock",
+      "link": "https://www.canstockphoto.com/ancient-yellamma-temple-at-badami-86564808.html",
+      "original": "https://cdn.w600.comps.canstockphoto.com/ancient-yellamma-temple-at-badami-stock-photography_csp86564808.jpg",
+      "is_product": true
+    },
+    {
+      "position": 51,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT8eHIDDG04DyvWBWVAaGiAO4FP-6kjdE2Pw&usqp=CAU",
+      "source": "alamy.com",
+      "title": "mountain top temple with flat sky at morning image is taken at badami  karnataka india. it is showing the beautiful temple on a mountain top Stock  Photo - Alamy",
+      "link": "https://www.alamy.com/mountain-top-temple-with-flat-sky-at-morning-image-is-taken-at-badami-karnataka-india-it-is-showing-the-beautiful-temple-on-a-mountain-top-image376175913.html",
+      "original": "https://c8.alamy.com/comp/2CT0861/mountain-top-temple-with-flat-sky-at-morning-image-is-taken-at-badami-karnataka-india-it-is-showing-the-beautiful-temple-on-a-mountain-top-2CT0861.jpg",
+      "is_product": true
+    },
+    {
+      "position": 52,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbE3L7BIozZOgYhOLcTPJyC4vVafmipr-yoA&usqp=CAU",
+      "source": "tripadvisor.in",
+      "title": "10 BEST Places to Visit in Badami - UPDATED 2022 (with Photos & Reviews) -  Tripadvisor",
+      "link": "https://www.tripadvisor.in/Attractions-g1143919-Activities-Badami_Bagalkot_District_Karnataka.html",
+      "original": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/a0/68/ec/caption.jpg?w=300&h=300&s=1",
+      "is_product": false
+    },
+    {
+      "position": 53,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvAsoJHloTA4DlbNs18wgwWJAADKeciSkDLg&usqp=CAU",
+      "source": "istockphoto.com",
+      "title": "1,333 Badami Stock Photos, Pictures & Royalty-Free Images - iStock",
+      "link": "https://www.istockphoto.com/photos/badami",
+      "original": "https://media.istockphoto.com/photos/bhootnath-temple-picture-id1330554682?k=20&m=1330554682&s=612x612&w=0&h=09kV-OYkqBZgqY5goYbN9J_gmBmXWwY0s0L7a2daftg=",
+      "is_product": true
+    },
+    {
+      "position": 54,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTimS6tBM8dynihSSwcaoh-q2QOCfaJMPOf-Q&usqp=CAU",
+      "source": "backpacksters.com",
+      "title": "Exploring The Badami Cave Temples - The Backpacksters",
+      "link": "https://www.backpacksters.com/india/badami-cave-temples-karnataka/",
+      "original": "https://www.backpacksters.com/wp-content/uploads/2021/03/India-Karnataka-Badami-Pinterest-3.jpg",
+      "is_product": false
+    },
+    {
+      "position": 55,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgM2IPg-yS5OmaLiSsAOCknyXut3ODvQEDw&usqp=CAU",
+      "source": "gettyimages.in",
+      "title": "923 Badami Photos and Premium High Res Pictures - Getty Images",
+      "link": "https://www.gettyimages.in/photos/badami",
+      "original": "https://media.gettyimages.com/photos/badami-cave-temple-picture-id458988325?s=612x612",
+      "is_product": true
+    },
+    {
+      "position": 56,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG-9iaJVfp5QS63x3d9gykFFqZtF54SVecvQ&usqp=CAU",
+      "source": "shutterstock.com",
+      "title": "Beautiful Ancient Temple Badami Karnataka India Stock Photo 93548983 |  Shutterstock",
+      "link": "https://www.shutterstock.com/image-photo/beautiful-ancient-temple-badami-karnataka-india-93548983",
+      "original": "https://image.shutterstock.com/z/stock-photo-beautiful-ancient-temple-in-badami-karnataka-india-93548983.jpg",
+      "is_product": false
+    },
+    {
+      "position": 57,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ644J0qwIyP5zxq4NYZo-d7Qz2EG1nV9Y39A&usqp=CAU",
+      "source": "ttravelog.com",
+      "title": "Badami Cave Temples, Karnataka, India - Most Amazing Ancient Rock Cut Cave  Temples",
+      "link": "https://ttravelog.com/articles/badami-cave-temples-karnataka-india-most-amazing-ancient-rock-cut-cave-temples_Ww.html",
+      "original": "https://media.ttravelog.com/article/images/Badami-cave-temples-in-karnataka-6.jpg",
+      "is_product": false
+    },
+    {
+      "position": 58,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2dzdfAyED_Q7AM0q16wdsteJFKiEoAkhCrg&usqp=CAU",
+      "source": "solobackpacker.com",
+      "title": "Badami Cave Temples- Visitor's Guide",
+      "link": "https://www.solobackpacker.com/badami-trip-in-karnataka/",
+      "original": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_700,h_528/https://www.solobackpacker.com/wp-content/uploads/2020/07/Badami_An_Old_Glory.jpg",
+      "is_product": false
+    },
+    {
+      "position": 59,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSumxx65M3-oD6a21IN0KlauPjHit0PZ1VEnA&usqp=CAU",
+      "source": "alamy.com",
+      "title": "badami city view from hill top at morning with bright sky image is taken at badami  karnataka india. it is showing the beautiful view of badami city Stock  Photo - Alamy",
+      "link": "https://www.alamy.com/badami-city-view-from-hill-top-at-morning-with-bright-sky-image-is-taken-at-badami-karnataka-india-it-is-showing-the-beautiful-view-of-badami-city-image376175793.html",
+      "original": "https://c8.alamy.com/comp/2CT081N/badami-city-view-from-hill-top-at-morning-with-bright-sky-image-is-taken-at-badami-karnataka-india-it-is-showing-the-beautiful-view-of-badami-city-2CT081N.jpg",
+      "is_product": true
+    },
+    {
+      "position": 60,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-DYSO0N7PTMMhCaXiysloQ0qBlP03MGsPw&usqp=CAU",
+      "source": "karnatakatouristspots.wordpress.com",
+      "title": "badami temple | karnataka Tourist Spots",
+      "link": "https://karnatakatouristspots.wordpress.com/tag/badami-temple/",
+      "original": "https://karnatakatouristspots.files.wordpress.com/2013/01/karnataka-tourist-spots-3-badami-fort.jpg",
+      "is_product": false
+    },
+    {
+      "position": 61,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS-3Zo6Y9FE1Xz4ZNj_8INwDO1R-XhlOHIyQ&usqp=CAU",
+      "source": "fairytalestudios.in",
+      "title": "Places to visit in Badami, Karnataka",
+      "link": "https://www.fairytalestudios.in/post/places-to-visit-in-badami",
+      "original": "https://static.wixstatic.com/media/9b64ce_e3204b765f9348ea998261b751f0d430~mv2.jpg/v1/fit/w_1000%2Ch_1000%2Cal_c%2Cq_80/file.jpg",
+      "is_product": false
+    },
+    {
+      "position": 62,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQo0LxIpLQv2oIoWNLU-c8wEjwyvTc1n7qUg&usqp=CAU",
+      "source": "br.pinterest.com",
+      "title": "Places to visit in Badami, Karnataka | Places to visit, India travel guide,  Asia travel",
+      "link": "https://br.pinterest.com/pin/828521662692555376/",
+      "original": "https://i.pinimg.com/736x/d3/36/b6/d336b6a282421f70109877ea5419cc25.jpg",
+      "is_product": false
+    },
+    {
+      "position": 63,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8dTENCHZoJjxfXxPJE_L9SG5lIjRxUMkXAw&usqp=CAU",
+      "source": "flickr.com",
+      "title": "Sculpture @ Cave Temple 2, Badami, Karnataka | Badami (Kanna… | Flickr",
+      "link": "https://www.flickr.com/photos/mukulb/5848984827",
+      "original": "https://live.staticflickr.com/3251/5848984827_f7348ac2e0_b.jpg",
+      "is_product": true
+    },
+    {
+      "position": 64,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe67aFfPWVjTIyYmAmC0b76NiNard0qGeFJQ&usqp=CAU",
+      "source": "stock.adobe.com",
+      "title": "Beautiful natural scenery, Badami, Karnataka, South India, India Stock  Photo | Adobe Stock",
+      "link": "https://stock.adobe.com/images/beautiful-natural-scenery-badami-karnataka-south-india-india/362801229",
+      "original": "https://as1.ftcdn.net/v2/jpg/03/62/80/12/1000_F_362801229_XTHtewzOTx1YDtbP5Y7z21TPVN41gRD4.jpg",
+      "is_product": false
+    },
+    {
+      "position": 65,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7nU08O4b5gW_uoDpBX2eUqQSak461VYraWQ&usqp=CAU",
+      "source": "karnatakatourism.org",
+      "title": "Karnataka Tourist Place Photos - Best Places to Visit in Karnataka",
+      "link": "https://www.karnatakatourism.org/gallery/",
+      "original": "https://www.karnatakatourism.org/wp-content/uploads/2020/06/P14-gallery.jpg",
+      "is_product": false
+    },
+    {
+      "position": 66,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvTKDBulUMqYGmVhpiTH2NcGm6hFaIQWAdwA&usqp=CAU",
+      "source": "shutterstock.com",
+      "title": "Beautiful Rock Temples Badami Karnataka Stock Photo 1448554826 |  Shutterstock",
+      "link": "https://www.shutterstock.com/image-photo/beautiful-rock-temples-badami-karnataka-1448554826",
+      "original": "https://image.shutterstock.com/image-photo/beautiful-rock-temples-badami-karnataka-260nw-1448554826.jpg",
+      "is_product": true
+    },
+    {
+      "position": 67,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqMiDRQUaNiYdE70bPI-0HWJoUK-RNfqbf7Q&usqp=CAU",
+      "source": "alamy.com",
+      "title": "beautiful series of steps with vintage brick and stone house in badami  karnataka Stock Photo - Alamy",
+      "link": "https://www.alamy.com/beautiful-series-of-steps-with-vintage-brick-and-stone-house-in-badami-karnataka-image415757980.html",
+      "original": "https://c8.alamy.com/comp/2F4BBF8/beautiful-series-of-steps-with-vintage-brick-and-stone-house-in-badami-karnataka-2F4BBF8.jpg",
+      "is_product": true
+    },
+    {
+      "position": 68,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBIK8tVT0jSzgluOdn1aD0xJj5CDPX8svWnw&usqp=CAU",
+      "source": "picxy.com",
+      "title": "Image of Beautiful View of Badami Cave Temples-CG927880-Picxy",
+      "link": "https://www.picxy.com/photo/721610",
+      "original": "https://images.picxy.com/cache/2020/6/10/7b2af1a9d40d86abeba87df70e1d58fb.jpg",
+      "is_product": true
+    },
+    {
+      "position": 69,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMG_c8w6Morkyve3zMbZ8o47Egd30KOCn97A&usqp=CAU",
+      "source": "onacheaptrip.com",
+      "title": "Badami Caves, a guide to the historic caves Karnataka",
+      "link": "https://www.onacheaptrip.com/badami-caves/",
+      "original": "https://www.onacheaptrip.com/wp-content/uploads/Beautiful-view-from-Badami-Caves-Karnataka.jpg",
+      "is_product": false
+    },
+    {
+      "position": 70,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfjpyPa8za-QFhNMqYLLeg_12AGgtQ8Exqvg&usqp=CAU",
+      "source": "in.pinterest.com",
+      "title": "Hilltop temple, Badami, Karnataka | Ancient buildings architecture, Cool  places to visit, Incredible india",
+      "link": "https://in.pinterest.com/pin/330451691380376836/",
+      "original": "https://i.pinimg.com/736x/1e/93/c0/1e93c04fdedca7838eb2490e3a546aa5--karnataka-incredible-india.jpg",
+      "is_product": false
+    },
+    {
+      "position": 71,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsYkSbPyIyUwq9ueM8ZgJ4enQvvA5y_rquGw&usqp=CAU",
+      "source": "shutterstock.com",
+      "title": "Beautiful Ancient Temple Badami Karnataka India Stock Photo 95867704 |  Shutterstock",
+      "link": "https://www.shutterstock.com/image-photo/beautiful-ancient-temple-badami-karnataka-india-95867704",
+      "original": "https://image.shutterstock.com/image-photo/beautiful-ancient-temple-badami-karnataka-260nw-95867704.jpg",
+      "is_product": true
+    },
+    {
+      "position": 72,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBCeB_4ruS-lAKlDDlkQ_v4V2FlAH5Ickyjw&usqp=CAU",
+      "source": "indianpanorama.in",
+      "title": "Badami - City Guide - Karnataka - Indian Panorama",
+      "link": "https://www.indianpanorama.in/city-guide/karnataka/badami.php",
+      "original": "https://www.indianpanorama.in/images/city-guide/karnataka/badami.jpg",
+      "is_product": false
+    },
+    {
+      "position": 73,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF_rnEiaTIFVEwAsv1qQ7flr3ZrL7tqS92gg&usqp=CAU",
+      "source": "tourmyindia.com",
+      "title": "9 Reasons to Visit Badami in Northern Karnataka",
+      "link": "https://www.tourmyindia.com/blog/reasons-to-visit-badami-in-northern-karnataka/",
+      "original": "https://www.tourmyindia.com/blog//wp-content/uploads/2015/12/Beautiful-Architecture-Badami-2.jpg",
+      "is_product": false
+    },
+    {
+      "position": 74,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRaZGqPZb7lZi-UBP9FYOuCsCZ2fMyLpLmow&usqp=CAU",
+      "source": "alamy.com",
+      "title": "beautiful picture of Agastya lake with sky in background at Badami cave  temples , Badami Karnataka India Stock Photo - Alamy",
+      "link": "https://www.alamy.com/beautiful-picture-of-agastya-lake-with-sky-in-background-at-badami-cave-temples-badami-karnataka-india-image416410248.html",
+      "original": "https://c8.alamy.com/comp/2F5D3EG/beautiful-picture-of-agastya-lake-with-sky-in-background-at-badami-cave-temples-badami-karnataka-india-2F5D3EG.jpg",
+      "is_product": true
+    },
+    {
+      "position": 75,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-umyfR2j-zZu_84ysLZG3V4cvvbcB7zypYg&usqp=CAU",
+      "source": "matriwords.com",
+      "title": "Chalukya Temple Trail – Badami 1 – matriwords",
+      "link": "https://matriwords.com/2020/07/16/chalukya-temple-trail-badami-1/",
+      "original": "https://matriwords.files.wordpress.com/2020/07/p1060773.jpeg?w=644&h=475",
+      "is_product": false
+    },
+    {
+      "position": 76,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHRIfu4XwCl29P9fNoSm9w1k86Oqj0jzaeUg&usqp=CAU",
+      "source": "barewalls.com",
+      "title": "Beautiful ancient temple in Badami, Karnataka, India, Canvas Print |  Barewalls Posters & Prints | bwc11255937",
+      "link": "https://www.barewalls.com/canvas-print/beautiful-ancient-temple-in-badami_bwc11255937.html",
+      "original": "https://images.barewalls.com/comp/canvas-print/bwc11255937/beautiful-ancient-temple-in-badami-karnataka-india.jpg?ph=12.0&pw=18.0&print_border=&fit=&flip=&stretch_to_fit=false&print_colorfilter=no_filter&bits=&side_style=mirrored&units=in&frame_id=&frame_type=&show_banner=true&artist_attr_name=false&artist_attr_show=false&artist_attr_title=false&artist_attr_format=&artist_attr_font=&artist_attr_size=&custom_x_pct=&custom_y_pct=&custom_w_pct=&custom_h_pct=&bleed_size=&is_custom=false&can_edit_frame=true&object_width=18.0&object_height=12.0&fit_select=&internal_sku=",
+      "is_product": false
+    },
+    {
+      "position": 77,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjl9k2-7y6TA-tav2dvOebvTj8-1BxdWzDnA&usqp=CAU",
+      "source": "ttravelog.com",
+      "title": "Badami Cave Temples, Karnataka, India - Most Amazing Ancient Rock Cut Cave  Temples",
+      "link": "https://ttravelog.com/articles/badami-cave-temples-karnataka-india-most-amazing-ancient-rock-cut-cave-temples_Ww.html",
+      "original": "https://media.ttravelog.com/article/images/Badami-cave-temples-in-karnataka-4.jpg",
+      "is_product": false
+    },
+    {
+      "position": 78,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNNPRR0C6p8ap1RzYJHUWLl935xOyCX0t4FQ&usqp=CAU",
+      "source": "gettyimages.in",
+      "title": "923 Badami Photos and Premium High Res Pictures - Getty Images",
+      "link": "https://www.gettyimages.in/photos/badami",
+      "original": "https://media.gettyimages.com/photos/badami-cave-temples-the-badami-cave-temples-are-composed-of-four-picture-id963395078?s=612x612",
+      "is_product": true
+    },
+    {
+      "position": 79,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbpLOd933e-VNpAkQgPR9WwnX0jHOXAPiR3g&usqp=CAU",
+      "source": "travellingcamera.com",
+      "title": "Amazing Stories of Creative Ceilings of Badami Cave Temples in Karnataka (  One state Many Worlds)",
+      "link": "https://www.travellingcamera.com/2020/03/badami-cave-temples-karnataka-india.html",
+      "original": "https://1.bp.blogspot.com/-xlYG_zgW0pQ/XnTURnQNCsI/AAAAAAABAuI/QUNXKfJeF00uBrH-FPd2XmqC-SNxJndGgCLcBGAsYHQ/s1600/Roof-tops%2Bof%2BBadami%2BCave%2BTemples%252C%2BKarnataka%252C%2BIndia-3.jpg",
+      "is_product": false
+    },
+    {
+      "position": 80,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8FKANLynn1d7SPjNNRbNIg3cuMB6DonWJ5Q&usqp=CAU",
+      "source": "storiesbysoumya.com",
+      "title": "Stunning Badami Cave Temples of India - Stories by Soumya",
+      "link": "https://www.storiesbysoumya.com/badami-cave-temples-india/",
+      "original": "https://www.storiesbysoumya.com/wp-content/uploads/2019/01/Badami-Cave-Temples-of-India-min.jpg",
+      "is_product": false
+    },
+    {
+      "position": 81,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrAW5empThpHkAQHA1l9AeGuQE_bSfIErNtw&usqp=CAU",
+      "source": "shutterstock.com",
+      "title": "Badami Images, Stock Photos & Vectors | Shutterstock",
+      "link": "https://www.shutterstock.com/search/badami",
+      "original": "https://image.shutterstock.com/image-photo/badami-karnataka-india-january-10-260nw-2004483962.jpg",
+      "is_product": true
+    },
+    {
+      "position": 82,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZbIsrbBObx0i9zxlpUkLnJOE-boV9o5js0w&usqp=CAU",
+      "source": "alamy.com",
+      "title": "Badami Cave Temples High Resolution Stock Photography and Images - Alamy",
+      "link": "https://www.alamy.com/stock-photo/badami-cave-temples.html",
+      "original": "https://c8.alamy.com/comp/T39556/beautiful-reflection-of-blue-sky-and-clouds-in-agastya-lake-beside-badami-cave-temples-in-badami-karnataka-india-T39556.jpg",
+      "is_product": true
+    },
+    {
+      "position": 83,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqfIJcrzasKPweMPHOdF8lrijta5QLP3Z3Pg&usqp=CAU",
+      "source": "karnatakatravelogue.blogspot.com",
+      "title": "Karnataka Travelogue, blended with Photologue-Travelogue-Infologue: Badami  Cave Temples (3 & 4) – Bagalkot Heritage Drive - Day 2",
+      "link": "http://karnatakatravelogue.blogspot.com/2013/01/badami-cave-temples-3-4-bagalkot.html",
+      "original": "http://4.bp.blogspot.com/-dhzqM2Hx91E/UOSQgbmD7hI/AAAAAAAADqo/l-j62FUZATA/s1600/_MG_9946-1+copy.jpg",
+      "is_product": false
+    },
+    {
+      "position": 84,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAJTxRSuiSCneKco51fb_Ya5Q0WjyDPj2p-A&usqp=CAU",
+      "source": "depositphotos.com",
+      "title": "Badami Stock Photos, Royalty Free Badami Images | Depositphotos",
+      "link": "https://depositphotos.com/stock-photos/badami.html",
+      "original": "https://st3.depositphotos.com/1209696/37007/i/600/depositphotos_370073368-stock-photo-badami-cave-temples-hindu-jain.jpg",
+      "is_product": false
+    },
+    {
+      "position": 85,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuO7SxJo6wFmIKTWgyN_3Z9IX_nmq0XvvIjA&usqp=CAU",
+      "source": "dreamstime.com",
+      "title": "Beautiful Sunset Behind Badami Fort in Karnataka, India Stock Image - Image  of temples, tourism: 230843919",
+      "link": "https://www.dreamstime.com/beautiful-sunset-behind-badami-fort-karnataka-india-image230843919",
+      "original": "https://thumbs.dreamstime.com/z/beautiful-sunset-behind-badami-fort-karnataka-india-230843919.jpg",
+      "is_product": true
+    },
+    {
+      "position": 86,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXpu3wJTO06CWMyUKc4FL-VFUrajSKWnTX_w&usqp=CAU",
+      "source": "alamy.com",
+      "title": "mountain top temple with flat sky at morning image is taken at badami  karnataka india. it is showing the beautiful temple on a mountain top Stock  Photo - Alamy",
+      "link": "https://www.alamy.com/mountain-top-temple-with-flat-sky-at-morning-image-is-taken-at-badami-karnataka-india-it-is-showing-the-beautiful-temple-on-a-mountain-top-image376180393.html",
+      "original": "https://c8.alamy.com/comp/2CT0DX1/mountain-top-temple-with-flat-sky-at-morning-image-is-taken-at-badami-karnataka-india-it-is-showing-the-beautiful-temple-on-a-mountain-top-2CT0DX1.jpg",
+      "is_product": true
+    },
+    {
+      "position": 87,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7yr3XdsFkLKXWYTCU8t1qqBrfEp0GFUIsZw&usqp=CAU",
+      "source": "adventurebuddha.com",
+      "title": "Badami - The Rock-Cut Cave Temples Of Karnataka - Adventure Buddha",
+      "link": "https://adventurebuddha.com/badami-the-rock-cut-cave-temples-of-karnataka/",
+      "original": "https://adventurebuddha.com/wp-content/uploads/2020/05/Badami-Fort-1024x530.jpg",
+      "is_product": false
+    },
+    {
+      "position": 88,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRgXABPlNQI2bEAP6vwJ9EvgMeV_DyoLiuOw&usqp=CAU",
+      "source": "yatrikaone.com",
+      "title": "Badami",
+      "link": "https://yatrikaone.com/india-2/badami/",
+      "original": "https://i0.wp.com/yatrikaone.com/wp-content/uploads/travel/destination/India/Karnataka/Badami/Shivalaya/india_badami_upper_shivalaya_3_3_19_667_2_rs_wm_north_fort_watch_tower.jpg?resize=400%2C300&ssl=1",
+      "is_product": false
+    },
+    {
+      "position": 89,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJGwA0eRLjIIcUgKXUHowN3BUD1qXyIGxP6Q&usqp=CAU",
+      "source": "in.pinterest.com",
+      "title": "BhutanathaTemple, Badami, Karnataka | Beautiful architecture, Ancient  india, Indian history",
+      "link": "https://in.pinterest.com/pin/436286282627679109/",
+      "original": "https://i.pinimg.com/736x/09/c9/ff/09c9ffb734102c3dc69be7bfd62583df--water-sources-karnataka.jpg",
+      "is_product": false
+    },
+    {
+      "position": 90,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpUuGeYJPBubFlGOo3c6HBgx2AD66sYdG2SA&usqp=CAU",
+      "source": "pixabay.com",
+      "title": "Badami Cave Temples Sand Stone - Free photo on Pixabay",
+      "link": "https://pixabay.com/photos/badami-cave-temples-sand-stone-172694/",
+      "original": "https://cdn.pixabay.com/photo/2013/08/15/09/57/badami-172694_960_720.jpg",
+      "is_product": false
+    },
+    {
+      "position": 91,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7iZ4XyWr5gnouEj9EpOXk3vVaynE0IFVgw&usqp=CAU",
+      "source": "holidify.com",
+      "title": "14 Places To Visit In Badami, (2022) Top Tourist Places & Things To Do",
+      "link": "https://www.holidify.com/places/badami/sightseeing-and-things-to-do.html",
+      "original": "https://www.holidify.com/images/cmsuploads/compressed/1599_20200512130324.jpg",
+      "is_product": false
+    },
+    {
+      "position": 92,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-OqhOrKOC95OZMe3gtbdx-8rzI_NvkZMUlQ&usqp=CAU",
+      "source": "alamy.com",
+      "title": "badami city view from hill top at morning with bright sky image is taken at badami  karnataka india. it is showing the beautiful view of badami city Stock  Photo - Alamy",
+      "link": "https://www.alamy.com/badami-city-view-from-hill-top-at-morning-with-bright-sky-image-is-taken-at-badami-karnataka-india-it-is-showing-the-beautiful-view-of-badami-city-image376176197.html",
+      "original": "https://c8.alamy.com/comp/2CT08G5/badami-city-view-from-hill-top-at-morning-with-bright-sky-image-is-taken-at-badami-karnataka-india-it-is-showing-the-beautiful-view-of-badami-city-2CT08G5.jpg",
+      "is_product": true
+    },
+    {
+      "position": 93,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt3KLY4-1ASxIINEFWIJH2yoDk8KXUpgZ2Dw&usqp=CAU",
+      "source": "m.facebook.com",
+      "title": "Explore The Beauty of India - Badami temple ,Karnataka | Facebook",
+      "link": "https://m.facebook.com/1118484655001187/photos/badami-temple-karnataka/1546649988851316/",
+      "original": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1546649988851316",
+      "is_product": false
+    },
+    {
+      "position": 94,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa06cEVRrb3f2jmwGQys7GMXI3TE4etSLvrQ&usqp=CAU",
+      "source": "youtube.com",
+      "title": "UNCOVERING BEAUTY OF BADAMI AND AROUND !!! HD - YouTube",
+      "link": "https://www.youtube.com/watch?v=4bk8yJDUATM",
+      "original": "https://i.ytimg.com/vi/4bk8yJDUATM/maxresdefault.jpg",
+      "is_product": true
+    },
+    {
+      "position": 95,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuAEsY8P4FI-3lRNB1EqStgL8-CSzR3N_vGA&usqp=CAU",
+      "source": "trawell.in",
+      "title": "15 Best Places to Visit in Badami, Things to Do & Sightseeing (2022)",
+      "link": "https://www.trawell.in/karnataka/badami/places-to-visit-things-to-do",
+      "original": "https://www.trawell.in/admin/images/upload/073237688Badami_Main.jpg",
+      "is_product": false
+    },
+    {
+      "position": 96,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi6OiOZckPF3z-SIKP3sM7Bq9R_CfB1uDxCA&usqp=CAU",
+      "source": "in.pinterest.com",
+      "title": "10 Badami ideas | badami cave temples, chalukya dynasty, indian architecture",
+      "link": "https://in.pinterest.com/vidyashreev9535/badami/",
+      "original": "https://i.pinimg.com/736x/62/67/03/626703d9080421adcb19a1249aa3d006.jpg",
+      "is_product": false
+    },
+    {
+      "position": 97,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_krHIeHlk7HHZEMxoRG-g47JpDr8aEUhMxA&usqp=CAU",
+      "source": "tourmyindia.com",
+      "title": "9 Reasons to Visit Badami in Northern Karnataka",
+      "link": "https://www.tourmyindia.com/blog/reasons-to-visit-badami-in-northern-karnataka/",
+      "original": "https://www.tourmyindia.com/blog//wp-content/uploads/2015/12/badami-fort-5.jpg",
+      "is_product": false
+    },
+    {
+      "position": 98,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUkIusupmzbLJ7ng5SZLIOxLh5oWxT-ubg_Q&usqp=CAU",
+      "source": "alamy.com",
+      "title": "mountain top temple with flat sky at morning image is taken at badami  karnataka india. it is showing the beautiful temple on a mountain top Stock  Photo - Alamy",
+      "link": "https://www.alamy.com/mountain-top-temple-with-flat-sky-at-morning-image-is-taken-at-badami-karnataka-india-it-is-showing-the-beautiful-temple-on-a-mountain-top-image376179351.html",
+      "original": "https://c8.alamy.com/comp/2CT0CGR/mountain-top-temple-with-flat-sky-at-morning-image-is-taken-at-badami-karnataka-india-it-is-showing-the-beautiful-temple-on-a-mountain-top-2CT0CGR.jpg",
+      "is_product": true
+    },
+    {
+      "position": 99,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQGQIK2lwl1Vrsz6BCzEMP5gcgM6ByZR8OTA&usqp=CAU",
+      "source": "istockphoto.com",
+      "title": "1,333 Badami Stock Photos, Pictures & Royalty-Free Images - iStock",
+      "link": "https://www.istockphoto.com/photos/badami",
+      "original": "https://media.istockphoto.com/photos/upper-shivalaya-at-badami-picture-id1036568574?k=20&m=1036568574&s=612x612&w=0&h=xM48nO59CT5mXc6-fssmtdZp3SwsaPJ40bsuypqZy9w=",
+      "is_product": true
+    },
+    {
+      "position": 100,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT53WRWoJuGKl9EVGN-Bu1GlrLjZPH46Ezn6Q&usqp=CAU",
+      "source": "youtube.com",
+      "title": "Badami Cave & Temples Karnataka India - Bike My Soul - YouTube",
+      "link": "https://www.youtube.com/watch?v=jAg7D1RZ6eg",
+      "original": "https://i.ytimg.com/vi/jAg7D1RZ6eg/maxresdefault.jpg",
+      "is_product": true
+    }
+  ]
+}

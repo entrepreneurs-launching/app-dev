@@ -1,0 +1,74 @@
+changelog
+=========
+access id and secret key found in ~/.aws
+
+=============================================================================
+
+sup:csvwrite
+https://medium.com/my-adventures-with-aws-serverless-development/uploading-an-excel-into-dynamodb-4bf4ed90af81
+dynamodb - no change
+	Manage Stream - Picking the ‘New and old images - this was already there. dont revert
+s3 bucket changes
+lambda function changes
+	IAM role: read-s3-csv-write-dynamodb-table - "Allows Lambda functions to call AWS services on your behalf"
+	lambda function uses the above role
+	lambda function timeout
+	should revert
+
+=============================================================================
+
+EXCEL FILE CONVERTED INTO JSON
+items inserted into dynamodb using CREATE ITEM JSON
+
+=============================================================================
+
+aws cli was installed
+aws configure # uses and updates ~/.aws/credentials and ~/.aws/config
+
+=============================================================================
+
+aws s3 ls                                              # works
+aws s3 cp test-file.txt s3://trips-csv-database-store/ # works
+
+
+aws dynamodb list-tables                               # works
+aws dynamodb get-item --table-name="Trips-o3r6fcfzh5dytmorch7ztpq66u-dev" --key="7J5V9MCH+8V"
+
+Error parsing parameter '--key': Expected: '=', received: '+' for input:
+7J5V9MCH+8V
+        ^
+
+
+aws appsync list-graphql-apis i                        # error:
+An error occurred (AccessDeniedException) when calling the ListGraphqlApis operation: User: arn:aws:iam::719096804504:user/amplify-U1Gup is not authorized to perform: appsync:ListGraphqlApis on resource: arn:aws:appsync:ap-south-1:719096804504:*
+
+AWSAppSyncAdministrator Permission was added to IAM user amplify-U1Gup
+aws appsync list-graphql-apis                          # works
+
+=============================================================================
+
+
+appsync-list-trips.py is able to run queries with APIKEY
+
+=============================================================================
+
+graphQL query / mutation is not working with incognito user login. works with APIKEY
+maybe somethin expired. Try logging in from app
+
+=============================================================================
+
+deleted lambda function from sup:csvwrite
+deleted iam role from sup:csvwrite
+
+
+=============================================================================
+
+added to schema
+    {allow: owner},                        # authorized owners
+    {allow: public},                       # unauthorized apikey users
+    {allow: private, operations: [read]}   # authorized non-owners
+
+authorized users (username / password) and 
+unauthorized users (apikey)
+
+=============================================================================
