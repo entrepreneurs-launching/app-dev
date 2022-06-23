@@ -8,6 +8,7 @@ query MyQuery ($limit: Int!) {
       state
       place
       months
+      updatedAt
     }
     nextToken
   }
@@ -24,6 +25,7 @@ query MyQuery ($limit: Int!, $nextToken: String!) {
       state
       place
       months
+      updatedAt
     }
     nextToken
   }

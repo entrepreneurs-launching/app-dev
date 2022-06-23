@@ -59,6 +59,19 @@ def updateTripItem(id, imagerecord):
     response = json.loads(response.text)
     return response
 
+def updateTripItemIO(id, item):
+    """
+    query = tripqueries.query4
+    variables = {'id': id, 'createdAt': item['updatedAt']}
+    response = connappsync.sendRequest(
+        json={'query': query, 'variables': variables}
+    )
+    print(response.text)
+    response = json.loads(response.text)
+    return response
+    """
+    pass
+
 
 def processTripList():
     limit = 5
@@ -94,7 +107,7 @@ def processTripList():
             state = item['state']
             image = item['image']
             
-            print('sup: process item:', id, code, place, image)
+            print('sup: process item:', item)
             processTripItem(code, place, state, item)
 
             item = id = code = place = image = None
@@ -104,6 +117,12 @@ def processTripList():
         variables = {'limit': limit, 'nextToken': nextToken}
         time.sleep(1)
 
+
+def processTripItemIO(code, place, state, item):
+    id        = item['id']
+    updatedAt = item['updatedAt']
+    print ('sup:', id, updatedAt)
+    updateTripItemIO(id, item)
 
 def processTripItem(code, place=None, state=None, item=None):
     if place == None or state == None:
