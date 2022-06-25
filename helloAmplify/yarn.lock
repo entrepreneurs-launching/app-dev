@@ -7911,6 +7911,12 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-18.1.0.tgz"
   "version" "18.1.0"
 
+"react-native-carousel-cards@github:susingha/react-native-carousel-cards":
+  "resolved" "git+ssh://git@github.com/susingha/react-native-carousel-cards.git#9178aba8ee5231565fb8f73532f8979b93f64c0a"
+  "version" "1.2.3"
+  dependencies:
+    "prop-types" "^15.8.1"
+
 "react-native-codegen@^0.0.17":
   "integrity" "sha512-7GIEUmAemH9uWwB6iYXNNsPoPgH06pxzGRmdBzK98TgFBdYJZ7CBuZFPMe4jmHQTPOkQazKZ/w5O6/71JBixmw=="
   "resolved" "https://registry.npmjs.org/react-native-codegen/-/react-native-codegen-0.0.17.tgz"
