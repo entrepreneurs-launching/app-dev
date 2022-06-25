@@ -1,0 +1,12 @@
+{
+  "resourceName": "helloamplifyimg",
+  "policyUUID": "7164cd8b",
+  "bucketName": "helloamplify-trip-destination-image-storage",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

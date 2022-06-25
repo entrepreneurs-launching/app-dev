@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "helloamplify",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/ssingha/Checkiut/appx-helloAmplify/helloAmplify/amplify/backend/api/helloamplify/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authhelloamplify509634ca"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 365,
+        "apiKeyExpirationDate": "2023-06-11T07:39:15.171Z",
+        "keyDescription": "supaccess"
+      }
+    ]
+  }
+}
