@@ -30,7 +30,7 @@ const AnimatedHeader = ({animatedValue}) => {
       style={{
         position: 'absolute',
         top: headerHeight,
-        zIndex: 2,
+        zIndex: 3,
         backgroundColor: 'gainsboro',
       }}>
       <SafeAreaView edges={['top']}>
