@@ -11,24 +11,33 @@ import {
   StatusBar,
 } from 'react-native';
 
-import {RNCarousel} from 'react-native-carousel-cards';
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
-import {SafeAreaProvider, SafeAreaView} from 'react-native-safe-area-context';
+import {
+  SafeAreaProvider, // added in main.js
+  useSafeAreaInsets,
+  SafeAreaView,
+} from 'react-native-safe-area-context';
 import {Auth, API, graphqlOperation, Storage} from 'aws-amplify';
 import {listTrips, getTrips} from '../../src/graphql/queries';
 
 import AnimatedHeader from './animated-header';
 import TripsCard from './screen-trips-card';
+import TripsCardHalf from './screen-trips-card-half';
 import {shuffleArray} from '../utils/shuffle-array';
+import {anyColor, anyHexColor} from '../utils/colors';
 import urls from '../strings/urls';
-import TripList from './screen-trips-list';
 import TitleBar from './titlebar';
+import TripDetails from './screen-trip-details';
 import styles from '../style/style';
 
+const Stack = createNativeStackNavigator();
 const HEADER_HEIGHT = urls.constHeaderHeight;
 
-export default function Trips() {
+export default function Trips({navigation}) {
   const offset = useRef(new Animated.Value(0)).current;
+  const insets = useSafeAreaInsets();
 
   const [tripList, setTrips] = useState([]);
   const [refreshing, setRefreshing] = useState(false);
@@ -40,9 +49,8 @@ export default function Trips() {
       const trips = await API.graphql(graphqlOperation(listTrips));
 
       if (trips.data.listTrips) {
-        console.log('sup: Trips:');
-        console.log(trips);
-        // shuffleArray(trips.data.listTrips.items);
+        console.log('sup: Trips:' + trips.data.listTrips.items.length);
+        shuffleArray(trips.data.listTrips.items);
         setTrips(trips.data.listTrips.items);
       }
     } catch (e) {
@@ -50,6 +58,7 @@ export default function Trips() {
       console.log(e.message);
     }
   };
+
   useEffect(() => {
     fetchTrips();
   }, []);
@@ -60,21 +69,44 @@ export default function Trips() {
     setRefreshing(false);
   };
 
+  const onSelectTrip = idx => {
+    console.log('sup: onPressTrip ' + idx);
+    const item = tripList[idx]
+    navigation.navigate('Details', {dest: item, id: idx});
+  };
+
+  const columns1 = 1;
+  const renderItem1 = ({item, index}) => (
+    <TripsCard dest={item} id={index} key={index} />
+  );
+  const columns2 = 2;
+  const renderItem2 = ({item, index}) => (
+    <TripsCardHalf dest={item} id={index} key={index} onSelect={onSelectTrip} />
+  );
+
   return (
-    <SafeAreaProvider>
+    <>
       <StatusBar
-        barStyle="dark-content"
+        // hidden
+        // backgroundColor="transparent"
         backgroundColor="gainsboro"
+        barStyle="dark-content"
         translucent={true}
       />
 
       <AnimatedHeader animatedValue={offset} />
 
-      <ScrollView
-        style={{flex: 1, backgroundColor: 'white'}}
+      <FlatList
+        data={tripList}
+        // if using renderitem1, use columns1
+        // if using renderitem2, use columns2
+        renderItem={renderItem2}
+        numColumns={columns2}
+        // the window
+        style={{}}
+        // the ladder
         contentContainerStyle={{
-          alignItems: 'center',
-          paddingTop: HEADER_HEIGHT * 2 + 50,
+          paddingTop: HEADER_HEIGHT * 2 + insets.top + 10,
         }}
         showsVerticalScrollIndicator={false}
         scrollEventThrottle={16}
@@ -84,18 +116,22 @@ export default function Trips() {
         )}
         refreshControl={
           <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
-        }>
-        {tripList.map((item, index) => (
-          <View key={index}>
-            <TripsCard dest={item} id={index} key={index} />
-          </View>
-        ))}
-      </ScrollView>
-    </SafeAreaProvider>
+        }
+      />
+    </>
   );
 }
 
-/* 
+/*
+
+
+
+        
+
+
+
+
+
   const buttonPress = async () => {
     console.log('sup: press');
     try {
@@ -126,5 +162,4 @@ export default function Trips() {
         renderItem={({item}) => {
           return <TripsCard text={item.name} uri={urls.urlDelhi} />;
         }}
-
 */

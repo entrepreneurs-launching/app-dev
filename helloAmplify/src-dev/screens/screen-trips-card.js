@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {View, Text, Dimensions, Image, ImageEditor} from 'react-native';
 
+import ImagedCarouselCard from "react-native-imaged-carousel-card";
 import {RNCarousel} from 'react-native-carousel-cards';
 import {Storage} from 'aws-amplify';
 
@@ -75,7 +76,7 @@ export default function TripsCard(props) {
         key={props.id}
         showArrows={false}
         loop={true}
-        loopInterval={5000 * randDay()}
+        loopInterval={10000 * randDay()}
         height={cardHeight}
         indicatorContainerStyle={{marginBottom: 40}}
         data={[

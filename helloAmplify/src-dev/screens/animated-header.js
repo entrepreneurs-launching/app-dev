@@ -103,7 +103,7 @@ const localstyles = StyleSheet.create({
   filterButtons: {
     borderColor: 'grey',
     borderWidth: 2,
-    borderRadius: 50,
+    borderRadius: 15,
     marginLeft: 10,
     padding: 10,
     paddingLeft: 20,

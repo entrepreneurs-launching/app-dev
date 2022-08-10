@@ -1,3 +1,8 @@
+
+/*
+ * CURRENTLY UNUSED
+ */
+
 import React from 'react';
 import {View, Text, FlatList, StyleSheet, RefreshControl} from 'react-native';
 

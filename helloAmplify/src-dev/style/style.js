@@ -2,11 +2,11 @@ const textStyleLightPadding = 10
 
 export default {
   testView: {
-    margin: 40,
-    padding: 40,
+    margin: 5,
+    padding: 5,
     backgroundColor: 'cyan',
     borderColor: 'green',
-    borderWidth: 1,
+    borderWidth: 5,
   },
   titleBarView: {
     marginBottom: 0,
@@ -19,7 +19,9 @@ export default {
     color: 'steelblue',
   },
   basicText: {
+    fontSize: 20,
     color: 'black',
+    textAlign: 'center',
   },
 
   newView: {
