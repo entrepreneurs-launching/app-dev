@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import {View, Text, Dimensions, Image, ImageEditor} from 'react-native';
+import {View, Text, Dimensions} from 'react-native';
 
-import ImagedCarouselCard from "react-native-imaged-carousel-card";
+import ImagedCarouselCard from 'react-native-imaged-carousel-card';
 import {RNCarousel} from 'react-native-carousel-cards';
 import {Storage} from 'aws-amplify';
 
@@ -9,14 +9,14 @@ import styles from '../style/style';
 import urls from '../strings/urls';
 
 export default function TripsCard(props) {
-  const cardWidth = Dimensions.get('window').width * 0.95;
-  const cardHeight = cardWidth * 0.6;
-
   const item = props.dest;
   const place = item.place;
   const state = item.state;
   const image = item.image.split(',').map(item => item.trim());
   // console.log('sup: array' + item.image);
+
+  const cardWidth = Dimensions.get('window').width * 0.95;
+  const cardHeight = cardWidth * 0.6;
 
   const randDay = () => {
     min = 1;
@@ -71,7 +71,7 @@ export default function TripsCard(props) {
   }, []);
 
   return (
-    <View style={{paddingTop: 10}} key={props.id}>
+    <View key={props.id}>
       <RNCarousel
         key={props.id}
         showArrows={false}

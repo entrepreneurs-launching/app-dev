@@ -1,11 +1,10 @@
 import React, {useState, useEffect, useReducer} from 'react';
 import {
   View,
-  Pressable,
   Text,
+  Pressable,
+  TouchableOpacity,
   Dimensions,
-  Image,
-  ImageEditor,
 } from 'react-native';
 
 import ImagedCarouselCard from 'react-native-imaged-carousel-card';
@@ -16,15 +15,15 @@ import styles from '../style/style';
 import urls from '../strings/urls';
 
 export default function TripsCardHalf(props) {
-  const cardWidth = Dimensions.get('window').width * 0.5 * 0.95;
-  const cardHeight = cardWidth;
-
   const idx = props.id;
   const item = props.dest;
   const place = item.place;
   const state = item.state;
   const image = item.image.split(',').map(item => item.trim());
   // console.log('sup: array' + item.image);
+
+  const cardWidth = Dimensions.get('window').width * 0.5 * 0.95;
+  const cardHeight = cardWidth;
 
   const randDay = () => {
     min = 1;
@@ -59,24 +58,22 @@ export default function TripsCardHalf(props) {
     getImageA(a);
   }, []);
 
-  const onPressFunction = (idx) => {
+  const onPressFunction = idx => {
     props.onSelect(idx);
   };
 
   // change Pressable to TouchableOpacity
   return (
-    <Pressable onPress={onPressFunction.bind(this, idx)}>
-      <View style={{margin: 5}}>
-        <ImagedCarouselCard
-          width={cardWidth}
-          height={cardHeight}
-          shadowColor="aliceblue"
-          text={randDay() + ' day trip to ' + place}
-          source={{
-            uri: imageURLA,
-          }}
-        />
-      </View>
-    </Pressable>
+    <TouchableOpacity activeOpacity={0.7} onPress={onPressFunction.bind(this, idx)}>
+      <ImagedCarouselCard
+        width={cardWidth}
+        height={cardHeight}
+        shadowColor="aliceblue"
+        text={randDay() + ' day trip to ' + place}
+        source={{
+          uri: imageURLA,
+        }}
+      />
+    </TouchableOpacity>
   );
 }

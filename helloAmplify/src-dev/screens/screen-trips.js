@@ -2,34 +2,31 @@ import React, {useRef, useEffect, useState} from 'react';
 import {
   View,
   Text,
-  Button,
-  Platform,
-  ScrollView,
   FlatList,
   Animated,
   RefreshControl,
   StatusBar,
 } from 'react-native';
 
+import {
+  SafeAreaView,
+  SafeAreaProvider, // added in main.js
+  useSafeAreaInsets,
+} from 'react-native-safe-area-context';
+
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
-import {
-  SafeAreaProvider, // added in main.js
-  useSafeAreaInsets,
-  SafeAreaView,
-} from 'react-native-safe-area-context';
 import {Auth, API, graphqlOperation, Storage} from 'aws-amplify';
 import {listTrips, getTrips} from '../../src/graphql/queries';
+
+import {shuffleArray} from '../utils/shuffle-array';
+import {anyColor, anyHexColor} from '../utils/colors';
 
 import AnimatedHeader from './animated-header';
 import TripsCard from './screen-trips-card';
 import TripsCardHalf from './screen-trips-card-half';
-import {shuffleArray} from '../utils/shuffle-array';
-import {anyColor, anyHexColor} from '../utils/colors';
 import urls from '../strings/urls';
-import TitleBar from './titlebar';
-import TripDetails from './screen-trip-details';
 import styles from '../style/style';
 
 const Stack = createNativeStackNavigator();
@@ -71,17 +68,26 @@ export default function Trips({navigation}) {
 
   const onSelectTrip = idx => {
     console.log('sup: onPressTrip ' + idx);
-    const item = tripList[idx]
+    const item = tripList[idx];
     navigation.navigate('Details', {dest: item, id: idx});
   };
 
   const columns1 = 1;
   const renderItem1 = ({item, index}) => (
-    <TripsCard dest={item} id={index} key={index} />
+    <View style={{marginTop: 10}}>
+      <TripsCard dest={item} id={index} key={index} />
+    </View>
   );
   const columns2 = 2;
   const renderItem2 = ({item, index}) => (
-    <TripsCardHalf dest={item} id={index} key={index} onSelect={onSelectTrip} />
+    <View style={{margin: 5}}>
+      <TripsCardHalf
+        dest={item}
+        id={index}
+        key={index}
+        onSelect={onSelectTrip}
+      />
+    </View>
   );
 
   return (
@@ -123,15 +129,6 @@ export default function Trips({navigation}) {
 }
 
 /*
-
-
-
-        
-
-
-
-
-
   const buttonPress = async () => {
     console.log('sup: press');
     try {
