@@ -1,0 +1,153 @@
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$ npm install
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: eslint-plugin-react-native@3.11.0
+npm WARN Found: eslint@8.16.0
+npm WARN node_modules/eslint
+npm WARN   dev eslint@"^8.16.0" from the root project
+npm WARN   15 more (@react-native-community/eslint-config, ...)
+npm WARN
+npm WARN Could not resolve dependency:
+npm WARN peer eslint@"^3.17.0 || ^4 || ^5 || ^6 || ^7" from eslint-plugin-react-native@3.11.0
+npm WARN node_modules/eslint-plugin-react-native
+npm WARN   eslint-plugin-react-native@"^3.11.0" from @react-native-community/eslint-config@3.0.2
+npm WARN   node_modules/@react-native-community/eslint-config
+npm WARN
+npm WARN Conflicting peer dependency: eslint@7.32.0
+npm WARN node_modules/eslint
+npm WARN   peer eslint@"^3.17.0 || ^4 || ^5 || ^6 || ^7" from eslint-plugin-react-native@3.11.0
+npm WARN   node_modules/eslint-plugin-react-native
+npm WARN     eslint-plugin-react-native@"^3.11.0" from @react-native-community/eslint-config@3.0.2
+npm WARN     node_modules/@react-native-community/eslint-config
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+
+added 1454 packages, and audited 1455 packages in 14s
+
+109 packages are looking for funding
+  run `npm fund` for details
+
+2 critical severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$ cd ios
+ssingha-a01:ios ssingha$
+ssingha-a01:ios ssingha$ pod install
+Auto-linking React Native modules for target `helloAmplify`: RNAWSCognito, RNCAsyncStorage, RNScreens, RNVectorIcons, react-native-netinfo, and react-native-safe-area-context
+[Codegen] Generating ./build/generated/ios/React-Codegen.podspec.json
+Analyzing dependencies
+Fetching podspec for `DoubleConversion` from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`
+[Codegen] Found FBReactNativeSpec
+Fetching podspec for `RCT-Folly` from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`
+Fetching podspec for `boost` from `../node_modules/react-native/third-party-podspecs/boost.podspec`
+Fetching podspec for `glog` from `../node_modules/react-native/third-party-podspecs/glog.podspec`
+Downloading dependencies
+Installing CocoaAsyncSocket (7.6.5)
+Installing DoubleConversion (1.1.6)
+...
+...
+ssingha-a01:ios ssingha$
+ssingha-a01:ios ssingha$ cd -
+/Users/ssingha/Checkiut/app-dev-helloAmplify/helloAmplify
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$ # npm install -g @aws-amplify/cli
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$ amplify pull --appId dsffvapgjts48 --envName dev
+? Select the authentication method you want to use: AWS access keys
+? accessKeyId:  ********************
+? secretAccessKey:  ****************************************
+? region:  ap-south-1
+Amplify AppID found: dsffvapgjts48. Amplify App name is: helloAmplify
+Backend environment dev found in Amplify Console app: helloAmplify
+? Choose your default editor: Visual Studio Code
+? Choose the type of app that you're building javascript
+Please tell us about your project
+? What javascript framework are you using react-native
+? Source Directory Path:  src
+? Distribution Directory Path: /
+? Build Command:  npm run-script build
+? Start Command: npm run-script start
+? Do you plan on modifying this backend? Yes
+⠸ Building resource api/helloamplify
+⚠️  WARNING: your GraphQL API currently allows public create, read, update, and delete access to all models via an API Key. To configure PRODUCTION-READY authorization rules, review: https://docs.amplify.aws/cli/graphql/authorization-rules
+
+⠼ Building resource api/helloamplify✅ GraphQL schema compiled successfully.
+
+Edit your schema at /Users/ssingha/Checkiut/app-dev-helloAmplify/helloAmplify/amplify/backend/api/helloamplify/schema.graphql or place .graphql files in a directory at /Users/ssingha/Checkiut/app-dev-helloAmplify/helloAmplify/amplify/backend/api/helloamplify/schema
+✔ Successfully pulled backend environment dev from the cloud.
+✅
+
+Successfully pulled backend environment dev from the cloud.
+Run 'amplify pull' to sync future upstream changes.
+
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$ echo $?
+0
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$ npx react-native run-ios --simulator="iPhone 13"
+error React Native CLI uses autolinking for native dependencies, but the following modules are linked manually:
+  - react-native-vector-icons (to unlink run: "react-native unlink react-native-vector-icons")
+This is likely happening when upgrading React Native from below 0.60 to 0.60 or above. Going forward, you can unlink this dependency via "react-native unlink <dependency>" and it will be included in your app automatically. If a library isn't compatible with autolinking, disregard this message and notify the library maintainers.
+Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+info Found Xcode workspace "helloAmplify.xcworkspace"
+info Launching iPhone 13 (iOS 15.4)
+info Building (using "xcodebuild -workspace helloAmplify.xcworkspace -configuration Debug -scheme helloAmplify -destination id=49470165-9A06-4BF9-ADBF-08DE1349508D")
+success Successfully built the app
+2022-08-12 17:33:09.896 xcodebuild[81330:131729280] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-08-12 17:33:09.896 xcodebuild[81330:131729280] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device }
+{ platform:iOS Simulator, id:25145116-C01A-4C1B-97D5-D6CFB8E8B568, OS:13.0, name:iPhone 7 }
+{ platform:iOS Simulator, id:4389BFE1-45DD-4090-B95D-1B8E5DB61D6F, OS:15.4, name:iPhone 8 }
+{ platform:iOS Simulator, id:F2CD808F-EC00-43F9-9B1D-E3791FCE12B8, OS:13.0, name:iPhone 11 }
+{ platform:iOS Simulator, id:24C83428-1A23-4F35-AFA3-BE0D1DA8B570, OS:15.4, name:iPhone 11 }
+{ platform:iOS Simulator, id:618DE368-ECD1-46D7-9E79-505C7E746C96, OS:15.4, name:iPhone 11 Pro Max }
+{ platform:iOS Simulator, id:C54DF26E-1AE0-42B9-9B37-14D2C861B2DE, OS:15.4, name:iPhone 12 }
+{ platform:iOS Simulator, id:32DCF3C3-4B2F-46F8-A368-FC9B4CF2902B, OS:15.4, name:iPhone 12 Pro Max }
+{ platform:iOS Simulator, id:DF44809D-981C-4072-B5C4-AE3499544DBC, OS:15.4, name:iPhone 12 mini }
+{ platform:iOS Simulator, id:49470165-9A06-4BF9-ADBF-08DE1349508D, OS:15.4, name:iPhone 13 }
+{ platform:iOS Simulator, id:CD95E603-AA65-4E88-8252-3886C9D27B10, OS:15.4, name:iPhone 13 Pro }
+{ platform:iOS Simulator, id:2C95A828-14AF-4615-A2A0-0BB5CB49B8AC, OS:15.4, name:iPhone 13 Pro Max }
+{ platform:iOS Simulator, id:2C7CCABE-0F59-4951-950C-0E50E784F006, OS:15.4, name:iPhone SE }
+{ platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device }
+info Installing "/Users/ssingha/Library/Developer/Xcode/DerivedData/helloAmplify-cgnwucouhbbyfjgaobgioauuguxi/Build/Products/Debug-iphonesimulator/helloAmplify.app"
+info Launching "org.reactjs.native.example.helloAmplify"
+success Successfully launched the app on the simulator
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$ git status
+On branch helloAmplify
+Your branch is up to date with 'origin/helloAmplify'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   amplify/.config/project-config.json
+        deleted:    amplify/README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$
+ssingha-a01:helloAmplify ssingha$
