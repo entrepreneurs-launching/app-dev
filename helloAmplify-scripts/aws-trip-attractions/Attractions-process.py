@@ -108,7 +108,6 @@ for i in range(rowstart, rowend + 1):
         f.writelines([str(row)])
         f.close()
 
-    break  ############################# sup: debug ##############################
 
 # save the file
 # workbook.save(filename=filename)
