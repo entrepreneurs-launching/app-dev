@@ -79,3 +79,108 @@ export const deleteTrips = /* GraphQL */ `
     }
   }
 `;
+export const createAttractions = /* GraphQL */ `
+  mutation CreateAttractions(
+    $input: CreateAttractionsInput!
+    $condition: ModelAttractionsConditionInput
+  ) {
+    createAttractions(input: $input, condition: $condition) {
+      id
+      json
+      weburl
+      lat
+      lon
+      pluscode
+      place
+      state
+      description
+      address
+      ranking
+      rating
+      numrev
+      numphoto
+      category1
+      category2
+      category3
+      category4
+      category5
+      category6
+      category7
+      category8
+      category9
+      createdAt
+      updatedAt
+      owner
+    }
+  }
+`;
+export const updateAttractions = /* GraphQL */ `
+  mutation UpdateAttractions(
+    $input: UpdateAttractionsInput!
+    $condition: ModelAttractionsConditionInput
+  ) {
+    updateAttractions(input: $input, condition: $condition) {
+      id
+      json
+      weburl
+      lat
+      lon
+      pluscode
+      place
+      state
+      description
+      address
+      ranking
+      rating
+      numrev
+      numphoto
+      category1
+      category2
+      category3
+      category4
+      category5
+      category6
+      category7
+      category8
+      category9
+      createdAt
+      updatedAt
+      owner
+    }
+  }
+`;
+export const deleteAttractions = /* GraphQL */ `
+  mutation DeleteAttractions(
+    $input: DeleteAttractionsInput!
+    $condition: ModelAttractionsConditionInput
+  ) {
+    deleteAttractions(input: $input, condition: $condition) {
+      id
+      json
+      weburl
+      lat
+      lon
+      pluscode
+      place
+      state
+      description
+      address
+      ranking
+      rating
+      numrev
+      numphoto
+      category1
+      category2
+      category3
+      category4
+      category5
+      category6
+      category7
+      category8
+      category9
+      createdAt
+      updatedAt
+      owner
+    }
+  }
+`;

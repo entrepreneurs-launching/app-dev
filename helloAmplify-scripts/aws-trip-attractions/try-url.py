@@ -1,0 +1,17 @@
+#!/usr/local/bin/python3
+
+from requests.compat import urljoin
+base='https://fqdn.com/a/b/c/d/'
+print (urljoin(base,'.'))
+print (urljoin(base,'..'))
+print (urljoin(base,'...'))
+print (urljoin(base,'/3764299/'))
+url_query = urljoin(base,'?vers=1.0')
+print (url_query)
+url_sec = urljoin(url_query,'#section-5.4')
+print (url_sec)
+
+if 'Attraction' in "{'location_id': '6920077', 'name': 'The Ambience', 'web_url': 'https://www.tripadvisor.com/Attraction_Review-g297628-d6920077-Reviews-The_Ambience-Bengaluru_Bangalore_District_Karnataka.html?m=66827', 'address_obj': {'street1': '#38 Cunningham Road', 'street2': 'Opp KFC Next Chai Point', 'city': 'Bengaluru', 'state': 'Karnataka', 'country': 'India', 'postalcode': '560052', 'address_string': '#38 Cunningham Road Opp KFC Next Chai Point, Bengaluru 560052 India'}, 'ancestors': [{'level': 'City', 'name': 'Bengaluru', 'location_id': '297628'}, {'level': 'District', 'name': 'Bangalore District', 'location_id': '12392950'}, {'level': 'State', 'name': 'Karnataka', 'location_id': '297627'}, {'level': 'Country', 'name': 'India', 'location_id': '293860'}], 'latitude': '12.99045', 'longitude': '77.59163', 'timezone': 'Asia/Kolkata', 'email': 'ambience_art@yahoo.co.in', 'phone': '+91 98804 85382', 'write_review': 'https://www.tripadvisor.com/UserReview-g297628-d6920077-The_Ambience-Bengaluru_Bangalore_District_Karnataka.html?m=66827', 'ranking_data': {'geo_location_id': '297628', 'ranking_string': '#199 of 234 Shopping in Bengaluru', 'geo_location_name': 'Bengaluru', 'ranking_out_of': '234', 'ranking': '199'}, 'rating': '3.0', 'rating_image_url': 'https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.0-66827-5.svg', 'num_reviews': '9', 'review_rating_count': {'1': '5', '2': '0', '3': '0', '4': '0', '5': '4'}, 'photo_count': '12', 'see_all_photos': 'https://www.tripadvisor.com/Attraction_Review-g297628-d6920077-m66827-Reviews-The_Ambience-Bengaluru_Bangalore_District_Karnataka.html#photos', 'hours': {'periods': [{'open': {'day': 1, 'time': '0900'}, 'close': {'day': 1, 'time': '0900'}}, {'open': {'day': 2, 'time': '0900'}, 'close': {'day': 2, 'time': '0900'}}, {'open': {'day': 3, 'time': '0900'}, 'close': {'day': 3, 'time': '0900'}}, {'open': {'day': 4, 'time': '0900'}, 'close': {'day': 4, 'time': '0900'}}, {'open': {'day': 5, 'time': '0900'}, 'close': {'day': 5, 'time': '0900'}}, {'open': {'day': 6, 'time': '0900'}, 'close': {'day': 6, 'time': '0900'}}, {'open': {'day': 7, 'time': '0900'}, 'close': {'day': 7, 'time': '0900'}}], 'weekday_text': ['Monday: 09:00 - 09:00', 'Tuesday: 09:00 - 09:00', 'Wednesday: 09:00 - 09:00', 'Thursday: 09:00 - 09:00', 'Friday: 09:00 - 09:00', 'Saturday: 09:00 - 09:00', 'Sunday: 09:00 - 09:00']}, 'category': {'name': 'attraction', 'localized_name': 'Attraction'}, 'subcategory': [{'name': 'shopping', 'localized_name': 'Shopping'}], 'groups': [{'name': 'Shopping', 'localized_name': 'Shopping', 'categories': [{'name': 'Gift & Specialty Shops', 'localized_name': 'Gift & Specialty Shops'}]}], 'neighborhood_info': [], 'trip_types': [{'name': 'business', 'localized_name': 'Business', 'value': '2'}, {'name': 'couples', 'localized_name': 'Couples', 'value': '1'}, {'name': 'solo', 'localized_name': 'Solo travel', 'value': '4'}, {'name': 'family', 'localized_name': 'Family', 'value': '0'}, {'name': 'friends', 'localized_name': 'Friends getaway', 'value': '0'}], 'awards': []}'":
+    print (True)
+else:
+    print (False)

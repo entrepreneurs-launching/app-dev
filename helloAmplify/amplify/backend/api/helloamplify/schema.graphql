@@ -26,3 +26,48 @@ type Trips
   description: String
   nearby: String
 }
+
+type Attractions
+  @model
+  @auth(
+  rules: [
+    {allow: owner},
+    {allow: public},
+    {allow: private, operations: [read]}
+  ]) {
+
+  # TripAdvisor Location ID
+  id: ID!
+  # --------------------
+  # TripAdvisor JSON
+  json: String
+  # --------------------
+  # TripAdvisor Weburl
+  weburl: String
+  # --------------------
+  lat: Float
+  lon: Float
+  pluscode: String
+  # --------------------
+  name: String
+  city: String
+  state: String
+  description: String
+  address: String
+  ranking: String
+  rating: String
+  numrev: Int
+  numphoto: Int
+  # --------------------
+  # These are Localized Names
+  category1: String
+  category2: String
+  category3: String
+  category4: String
+  category5: String
+  category6: String
+  category7: String
+  category8: String
+  category9: String
+
+}

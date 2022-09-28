@@ -1,0 +1,33 @@
+query1="""
+mutation MyMutation ($id: ID!, $json: String!, $weburl: String!, $lat: Float!, $lon: Float!, $pluscode: String!, $name: String!, $city: String!, $state: String!, $description: String!, $address: String!, $ranking: String!, $rating: String!, $numrev: Int!, $numphoto: Int!, $category1: String!, $category2: String!, $category3: String!, $category4: String!, $category5: String!, $category6: String!, $category7: String!, $category8: String!, $category9: String!) {
+  createAttractions(input: {id: $id, json: $json, weburl: $weburl, lat: $lat, lon: $lon, pluscode: $pluscode, name: $name, city: $city, state: $state, description: $description, address: $address, ranking: $ranking, rating: $rating, numrev: $numrev, numphoto: $numphoto, category1: $category1, category2: $category2, category3: $category3, category4: $category4, category5: $category5, category6: $category6, category7: $category7, category8: $category8, category9: $category9}) {
+    id
+    json
+    weburl
+    lat
+    lon
+    pluscode
+    name
+    city
+    state
+    description
+    address
+    ranking
+    rating
+    numrev
+    numphoto
+    category1
+    category2
+    category3
+    category4
+    category5
+    category6
+    category7
+    category8
+    category9
+    createdAt
+    updatedAt
+    owner
+  }
+}
+"""

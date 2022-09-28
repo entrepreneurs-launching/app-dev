@@ -70,3 +70,99 @@ export const onDeleteTrips = /* GraphQL */ `
     }
   }
 `;
+export const onCreateAttractions = /* GraphQL */ `
+  subscription OnCreateAttractions($owner: String) {
+    onCreateAttractions(owner: $owner) {
+      id
+      json
+      weburl
+      lat
+      lon
+      pluscode
+      place
+      state
+      description
+      address
+      ranking
+      rating
+      numrev
+      numphoto
+      category1
+      category2
+      category3
+      category4
+      category5
+      category6
+      category7
+      category8
+      category9
+      createdAt
+      updatedAt
+      owner
+    }
+  }
+`;
+export const onUpdateAttractions = /* GraphQL */ `
+  subscription OnUpdateAttractions($owner: String) {
+    onUpdateAttractions(owner: $owner) {
+      id
+      json
+      weburl
+      lat
+      lon
+      pluscode
+      place
+      state
+      description
+      address
+      ranking
+      rating
+      numrev
+      numphoto
+      category1
+      category2
+      category3
+      category4
+      category5
+      category6
+      category7
+      category8
+      category9
+      createdAt
+      updatedAt
+      owner
+    }
+  }
+`;
+export const onDeleteAttractions = /* GraphQL */ `
+  subscription OnDeleteAttractions($owner: String) {
+    onDeleteAttractions(owner: $owner) {
+      id
+      json
+      weburl
+      lat
+      lon
+      pluscode
+      place
+      state
+      description
+      address
+      ranking
+      rating
+      numrev
+      numphoto
+      category1
+      category2
+      category3
+      category4
+      category5
+      category6
+      category7
+      category8
+      category9
+      createdAt
+      updatedAt
+      owner
+    }
+  }
+`;

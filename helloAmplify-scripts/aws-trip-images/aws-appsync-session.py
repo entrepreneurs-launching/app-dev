@@ -8,8 +8,10 @@ import datetime
 
 # As found in AWS Appsync under Settings for your endpoint.
 APPSYNC_API_ENDPOINT_URL = 'https://gv4gmbmdyfexrcxuwnxtvi7nuy.appsync-api.ap-south-1.amazonaws.com/graphql'
+
 # Expires Fri, 16 Jun 2023 03:00:00 GMT
 APPSYNC_API_KEY = 'da2-wvjkukzb6jfa7hiyyedz2jvfdq'
+
 # Request Headers
 headers = {
     'Content-Type': "application/graphql",
