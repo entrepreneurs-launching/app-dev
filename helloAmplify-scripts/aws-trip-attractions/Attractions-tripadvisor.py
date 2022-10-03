@@ -1,5 +1,6 @@
 #!/usr/local/bin/python3
 
+import time
 import json
 import requests
 
@@ -11,6 +12,7 @@ tripadvisorapicountfile = 'tripadvisor-apicount.noedit'
 
 
 def checkapilimitpause():
+    time.sleep(1)
     apicount = 0
 
     # read api count
