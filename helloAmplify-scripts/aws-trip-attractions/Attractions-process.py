@@ -64,8 +64,8 @@ else:
 
 print('reading', filename, 'row', rowstart, 'to', rowend)
 
-for i in range(rowstart, rowend + 1):
-    row = str(i)
+for r in range(rowstart, rowend + 1):
+    row = str(r)
     print(row)
 
     cell = _pincode + row
@@ -83,7 +83,7 @@ for i in range(rowstart, rowend + 1):
     cell = _city + row
     city = sheet[cell].value
 
-    print(i, " : ", pincode, lat, lon, distt, city)
+    print("row:", r, " : ", pincode, lat, lon, distt, city)
 
     unformattedjson = tripadvisorapi.getnearbyjson(lat, lon)
 
